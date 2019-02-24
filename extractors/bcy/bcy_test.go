@@ -3,8 +3,8 @@ package bcy
 import (
 	"testing"
 
-	"github.com/iawia002/annie/config"
-	"github.com/iawia002/annie/test"
+	"github.com/thanhps42/annie/config"
+	"github.com/thanhps42/annie/test"
 )
 
 func TestDownload(t *testing.T) {

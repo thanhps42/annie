@@ -19,7 +19,7 @@ import (
 	"github.com/kr/pretty"
 	"golang.org/x/net/proxy"
 
-	"github.com/iawia002/annie/config"
+	"github.com/thanhps42/annie/config"
 )
 
 // Request base request

@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/iawia002/annie/config"
+	"github.com/thanhps42/annie/config"
 )
 
 func TestNeedDownloadList(t *testing.T) {

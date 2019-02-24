@@ -6,7 +6,7 @@ import (
 
 	"github.com/fatih/color"
 
-	"github.com/iawia002/annie/config"
+	"github.com/thanhps42/annie/config"
 )
 
 // URL data struct for single URL information

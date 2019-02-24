@@ -2,10 +2,11 @@ package facebook
 
 import (
 	"fmt"
+	"strings"
 
-	"github.com/iawia002/annie/downloader"
-	"github.com/iawia002/annie/request"
-	"github.com/iawia002/annie/utils"
+	"github.com/thanhps42/annie/downloader"
+	"github.com/thanhps42/annie/request"
+	"github.com/thanhps42/annie/utils"
 )
 
 // Extract is the main function for extracting data
@@ -15,7 +16,8 @@ func Extract(url string) ([]downloader.Data, error) {
 	if err != nil {
 		return downloader.EmptyList, err
 	}
-	title := utils.MatchOneOf(html, `<title id="pageTitle">(.+)</title>`)[1]
+	title := utils.MatchOneOf(html, `<title id="pageTitle">((.+)(\n(.+))?)</title>`)[1]
+	title = strings.Replace(title, "\n", " ", -1)
 
 	streams := map[string]downloader.Stream{}
 	for _, quality := range []string{"sd", "hd"} {

@@ -14,10 +14,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/iawia002/annie/config"
-	"github.com/iawia002/annie/downloader"
-	"github.com/iawia002/annie/request"
-	"github.com/iawia002/annie/utils"
+	"github.com/thanhps42/annie/config"
+	"github.com/thanhps42/annie/downloader"
+	"github.com/thanhps42/annie/request"
+	"github.com/thanhps42/annie/utils"
 )
 
 type errorData struct {

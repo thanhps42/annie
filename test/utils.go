@@ -4,7 +4,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/iawia002/annie/downloader"
+	"github.com/thanhps42/annie/downloader"
 )
 
 // CheckData check the given data

@@ -5,9 +5,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/iawia002/annie/downloader"
-	"github.com/iawia002/annie/request"
-	"github.com/iawia002/annie/utils"
+	"github.com/thanhps42/annie/downloader"
+	"github.com/thanhps42/annie/request"
+	"github.com/thanhps42/annie/utils"
 )
 
 const yinyuetaiAPI = "https://ext.yinyuetai.com/main/"

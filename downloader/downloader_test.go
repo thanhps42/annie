@@ -4,7 +4,7 @@ import (
 	// "os"
 	"testing"
 
-	"github.com/iawia002/annie/config"
+	"github.com/thanhps42/annie/config"
 )
 
 func init() {
